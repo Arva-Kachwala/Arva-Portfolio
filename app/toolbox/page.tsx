@@ -7,7 +7,7 @@ import { GridWrapper } from "@/app/components/GridWrapper";
 export default function ToolboxPage() {
   return (
     <div className="relative">
-      <title>Toolbox | Braydon Coyer</title>
+      <title>Toolbox | Arva Kachwala</title>
       <span className="absolute left-1/2 top-20 -translate-y-1/2 translate-x-1/2">
         <HorizontalLine />
       </span>

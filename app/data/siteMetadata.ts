@@ -1,9 +1,9 @@
 export const siteMetadata = {
-  title: "Braydon Coyer",
-  author: "Braydon Coyer",
-  headerTitle: "Braydon's Portfolio",
+  title: "Arva Kachwala",
+  author: "Arva Kachwala",
+  headerTitle: "Arva's Portfolio",
   description:
-    "I'm Braydon, a senior front-end engineer, blogger and international speaker. Welcome to my corner of the internet!",
+    "I'm Arva, a senior front-end engineer, blogger and international speaker. Welcome to my corner of the internet!",
   language: "en-us",
   siteUrl: "https://braydoncoyer.dev",
   siteRepo: "https://github.com/braydoncoyer/braydoncoyer.dev",

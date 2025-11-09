@@ -18,7 +18,7 @@ export default function AboutPage() {
 
   return (
     <div className="relative mt-14">
-      <title>About | Braydon Coyer</title>
+      <title>About | Arva Kachwala</title>
       <div className="relative space-y-10 md:space-y-16">
         {/* Title */}
         <GridWrapper className="space-y-12">
@@ -28,7 +28,7 @@ export default function AboutPage() {
                 <span>{timeOfDayGreeting}</span>
               </div>
               <h1 className="mx-auto max-w-2xl text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-5xl lg:text-left lg:text-6xl lg:leading-[64px]">
-                I&apos;m Braydon, a creative frontend engineer.
+                I&apos;m Arva, a creative frontend engineer.
               </h1>
             </div>
             <div className="order-1 my-12 flex-shrink-0 lg:order-2 lg:my-0">
@@ -39,7 +39,7 @@ export default function AboutPage() {
                       width={140}
                       height={140}
                       src="/braydon_speaking_photo.jpeg"
-                      alt="Braydon Coyer"
+                      alt="Arva Kachwala"
                       direction="left"
                     />
                   </div>
@@ -48,7 +48,7 @@ export default function AboutPage() {
                       width={140}
                       height={140}
                       src="/braydon_headshot_1.jpeg"
-                      alt="Braydon Coyer"
+                      alt="Arva Kachwala"
                       direction="right"
                     />
                   </div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
                       width={140}
                       height={140}
                       src="/braydon_headshot_3.jpg"
-                      alt="Braydon Coyer"
+                      alt="Arva Kachwala"
                       direction="left"
                     />
                   </div>

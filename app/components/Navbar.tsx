@@ -46,7 +46,7 @@ function DesktopNav() {
           <img
             className="h-6 w-6"
             src="/bcoyerlogo_dark.svg"
-            alt="Braydon's Logo"
+            alt="Arva's Logo"
           />
         </Link>
       </div>

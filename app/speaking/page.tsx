@@ -83,7 +83,7 @@ const talksAndPresentations: Talk[] = [
 export default function SpeakingPage() {
   return (
     <div className="relative">
-      <title>Speaking | Braydon Coyer</title>
+      <title>Speaking | Arva Kachwala</title>
       <div className="relative space-y-16">
         <GridWrapper>
           <h1 className="max-w-3/5 mx-auto mt-16 text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]">
@@ -215,7 +215,7 @@ export default function SpeakingPage() {
                     <TabPanels className="mt-8">
                       <TabPanel id="first-person">
                         <p className="text-base leading-7 text-text-secondary">
-                          I am Braydon Coyer, a Senior Frontend Engineer at
+                          I am Arva Kachwala, a Senior Frontend Engineer at
                           LogicGate, where I play a key role in developing an
                           automated Governance, Risk, and Compliance (GRC)
                           platform. As a creative developer, blogger, and
@@ -226,12 +226,12 @@ export default function SpeakingPage() {
                       </TabPanel>
                       <TabPanel id="third-person">
                         <p className="text-base leading-7 text-text-secondary">
-                          Braydon Coyer is a Senior Frontend Engineer at
+                          Arva Kachwala is a Senior Frontend Engineer at
                           LogicGate, where he plays a key role in developing an
                           automated Governance, Risk, and Compliance (GRC)
                           platform. As a creative developer, blogger, and
                           designer, he enjoys tinkering and sharing his projects
-                          with the public. Braydon lives in Texas with his wife
+                          with the public. Arva lives in Texas with his wife
                           and two daughters.
                         </p>
                       </TabPanel>

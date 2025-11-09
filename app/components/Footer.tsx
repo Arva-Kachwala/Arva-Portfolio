@@ -70,16 +70,16 @@ export function Footer(): JSX.Element {
                     <img
                       className="h-10 w-10"
                       src="/bcoyerlogo_dark.svg"
-                      alt="Braydon's Logo"
+                      alt="Arva's Logo"
                     />
                   </Link>
                   <p className="w-60 leading-5 text-gray-500">
-                    I&apos;m Braydon - a senior front-end developer, blogger and
+                    I&apos;m Arva - a senior front-end developer, blogger and
                     public speaker. Thanks for checking out my site!
                   </p>
                 </div>
                 <p className="mt-6 text-gray-500">
-                  © {new Date().getFullYear()} Braydon Coyer
+                  © {new Date().getFullYear()} Arva Kachwala
                 </p>
               </div>
               <div className="flex w-full items-end justify-end pr-16">

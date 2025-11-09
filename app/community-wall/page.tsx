@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { CommunityWallModal } from "@/app/components/CommunityWallModal";
-import createSupabaseServerClient from "@/app/lib/supabase/server";
 import { InfiniteCanvas } from "@/app/components/InfiniteCanvas";
 import { CommunityWallCard } from "@/app/components/CommunityWallCard";
 import { GridWrapper } from "../components/GridWrapper";
@@ -10,21 +9,16 @@ type SearchParamProps = {
   searchParams: Promise<{ show: string }>;
 };
 
+// Frontend-only: Community wall disabled (backend removed)
 export default async function Page({ searchParams }: SearchParamProps) {
-  const supabase = await createSupabaseServerClient();
-
-  const { data: messages } = await supabase
-    .from("messages")
-    .select("*")
-    .order("created_at", { ascending: false });
-
-  console.log(messages);
+  // Return empty array since backend is disabled
+  const messages: any[] = [];
 
   const show = (await searchParams).show === "true";
 
   return (
     <>
-      <title>Community Wall | Braydon Coyer</title>
+      <title>Community Wall | Arva Kachwala</title>
       {show ? <CommunityWallModal /> : null}
 
       {/* Page Header */}
